@@ -14,7 +14,7 @@ public class Twitter extends SocialClass {
     }
 
     @Override
-    public void timeline() {
+    public void timeLine() {
         for (int i = 0; i < posts.size(); i++) {
             System.out.println("POST " + (i + 1) + ":");
             System.out.println(posts.get(i));

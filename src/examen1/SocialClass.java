@@ -18,8 +18,8 @@ public abstract class SocialClass {
     protected String username;
     
     public SocialClass(String username){
-        friends = new ArrayList();
-        posts = new ArrayList();
+        this.friends = new ArrayList<>();
+        this.posts = new ArrayList<>();
         this.username = username;
     }
     
@@ -45,7 +45,7 @@ public abstract class SocialClass {
         JOptionPane.showMessageDialog(null, "Post agregado exitosamente");
     }
     
-    abstract void timeLine();
+  public abstract void timeLine();
     
   public void myProfile() {
     System.out.println("Usuario: " + username);
