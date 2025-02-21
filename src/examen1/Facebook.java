@@ -10,8 +10,6 @@ import java.util.ArrayList;
  *
  * @author laraj
  */
-
-
 public class Facebook extends SocialClass implements Commentable {
     private ArrayList<Comment> comments;
 
