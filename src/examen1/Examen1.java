@@ -30,7 +30,7 @@ private JFrame frame;
     private JComboBox<String> accountTypeComboBox;
     private JTextArea outputTextArea;
 
-    public SocialMediaGUI() {
+    public Examen1() {
         frame = new JFrame("UberSocial");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 400);
@@ -151,12 +151,12 @@ private JFrame frame;
         JTextField userField = new JTextField();
         JTextField postField = new JTextField();
         JButton addButton = new JButton("Agregar Post");
-        JButton backButton = new JButton("Atrás");
+        JButton backButton = new JButton("Atras");
 
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Lógica para agregar post
+                // Logica para agregar post
                 String user = userField.getText();
                 String post = postField.getText();
                 outputTextArea.append("Post agregado para " + user + ": " + post + "\n");
@@ -186,7 +186,7 @@ private JFrame frame;
         JTextField user1Field = new JTextField();
         JTextField user2Field = new JTextField();
         JButton addButton = new JButton("Agregar Amigo");
-        JButton backButton = new JButton("Atrás");
+        JButton backButton = new JButton("Atras");
 
         addButton.addActionListener(new ActionListener() {
             @Override
@@ -194,7 +194,7 @@ private JFrame frame;
                 // Lógica para agregar amigo
                 String user1 = user1Field.getText();
                 String user2 = user2Field.getText();
-                outputTextArea.append(user1 + " agregó a " + user2 + " como amigo\n");
+                outputTextArea.append(user1 + " agrego a " + user2 + " como amigo\n");
                 cardLayout.show(panel, "MainMenu");
             }
         });
@@ -223,7 +223,7 @@ private JFrame frame;
         JTextField authorField = new JTextField();
         JTextField commentField = new JTextField();
         JButton addButton = new JButton("Agregar Comentario");
-        JButton backButton = new JButton("Atrás");
+        JButton backButton = new JButton("Atras");
 
         addButton.addActionListener(new ActionListener() {
             @Override
