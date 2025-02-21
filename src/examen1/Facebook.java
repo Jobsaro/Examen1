@@ -5,7 +5,6 @@
 package examen1;
 
 import java.util.ArrayList;
-
 /**
  *
  * @author laraj
